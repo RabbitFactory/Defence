@@ -30,14 +30,14 @@ interface ProductModalProps {
 }
 
 const CATEGORIES = [
-  'Electronics',
+  'Gadgets',
   'Clothing',
   'Home & Garden',
   'Books',
+  'Stationary',
   'Sports',
   'Beauty',
   'Toys',
-  'Automotive',
   'Health',
   'Food & Beverages',
   'Other'
