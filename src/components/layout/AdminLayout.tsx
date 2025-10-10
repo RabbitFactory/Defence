@@ -125,7 +125,7 @@ export default function AdminLayout() {
             <aside className="hidden md:flex flex-col w-64 border-r bg-card p-4 h-screen sticky top-0">
                 <div className="flex items-center gap-2 px-2 py-3">
                     <Package className="h-6 w-6 text-primary" />
-                    <span className="text-xl font-bold">Jolly Admin</span>
+                    <span className="text-xl font-bold">Admin</span>
                 </div>
 
                 <Separator className="my-4" />
@@ -175,7 +175,7 @@ export default function AdminLayout() {
             <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-background border-b p-4 flex items-center justify-between">
                 <div className="flex items-center gap-2">
                     <Package className="h-6 w-6 text-primary" />
-                    <span className="text-xl font-bold">Jolly Admin</span>
+                    <span className="text-xl font-bold">Admin</span>
                 </div>
 
                 <Sheet open={isMobileOpen} onOpenChange={setIsMobileOpen}>
