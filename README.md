@@ -1,4 +1,4 @@
-# Jolly - E-commerce Platform
+# Alventory - E-commerce Platform
 
 A modern, professional e-commerce website built with React, TypeScript, Redux Toolkit, Supabase, and shadcn/ui. Features include a responsive storefront, admin dashboard, and comprehensive data tracking capabilities.
 
