@@ -426,7 +426,8 @@ export default function CheckoutPage() {
                                     htmlFor="address"
                                     className="text-sm font-medium"
                                 >
-ঠিকানা                                </Label>
+                                ঠিকানা
+                                </Label>
                                 <Textarea
                                     id="address"
                                     value={formData.address}
@@ -563,7 +564,10 @@ export default function CheckoutPage() {
                             <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t md:relative md:p-0 md:border-0 md:bg-transparent">
                                 <Button
                                     type="submit"
-                                    className="w-full bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary transition-all duration-300 hover:scale-[1.02] hover:shadow-lg animate-[jiggle_.86s_ease-in-out_infinite]"
+                                    className="w-full bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary transition-all duration-300 hover:scale-[1.02] hover:shadow-lg 
+                                    
+                                    "
+                                    // animate-[jiggle_.86s_ease-in-out_infinite]
                                     size="lg"
                                     style={{
                                         animationDelay: "2s",
